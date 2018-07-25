@@ -8,12 +8,8 @@ import java.net.URL;
 import java.net.UnknownHostException;
 import java.security.ProtectionDomain;
 
-import org.eclipse.jetty.jsp.JettyJspServlet;
-//import org.mortbay.jetty.Server;
 import org.eclipse.jetty.server.Server;
-import org.eclipse.jetty.servlet.ServletHolder;
 import org.eclipse.jetty.util.log.Log;
-//import org.mortbay.jetty.webapp.WebAppContext;
 import org.eclipse.jetty.webapp.WebAppContext;
 
 /**
