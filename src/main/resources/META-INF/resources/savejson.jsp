@@ -4,7 +4,7 @@
 <%@ page import="java.io.File" %>
 <%@ page import="java.io.IOException" %><%
 	String baseDir = request.getServletContext().getRealPath("/");
-	System.out.println("baseDir:"+baseDir);
+	//System.out.println("baseDir:"+baseDir);
 	String data = request.getParameter("data");
 	String pageid = request.getParameter("pageid");
 	if(data==null||"".equals(data)) {
@@ -21,8 +21,8 @@
 			BufferedWriter buff=new BufferedWriter(new FileWriter(fileName));
 			buff.write(data);
 			buff.close();
-			System.out.println("pageid:"+pageid);
-			System.out.println("data:"+data);
+			//System.out.println("pageid:"+pageid);
+			//System.out.println("data:"+data);
 			out.print("{\"status\":\"success\", \"data\":"+data+"}");
 			
 		} catch (IOException e) {
