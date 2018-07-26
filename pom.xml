@@ -184,6 +184,7 @@
 					<webApp>
 						<resourceBases>
 							<resourceBase>src/main/resources/META-INF/resources</resourceBase>
+							<resourceBase>${basedir}/cat-ui-standalone/dist</resourceBase>
 						</resourceBases>
 					</webApp>
 				</configuration>
