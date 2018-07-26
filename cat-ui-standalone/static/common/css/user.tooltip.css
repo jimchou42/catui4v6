@@ -1,0 +1,111 @@
+.p-tooltip {
+    background-color: rgba(249, 249, 249, 0.95) !important;
+    color: #0070c0 !important;
+    border-color: #3088F4;
+    border-radius: .25rem;
+    font-size: .75rem;
+    line-height: 1.0625rem;
+    padding: 6px 12px;
+    z-index: 10000;
+    max-width: 320px !important;
+    width: 250px !important;
+    word-wrap: break-word;
+}
+
+.p-tooltip .k-callout-n {
+    border-bottom-color: rgba(249, 249, 249, 0.95)!important;
+    top: -12px;
+    left: 50%;
+    pointer-events: none;
+}
+
+.p-tooltip .k-callout {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px;
+    border-color: transparent;
+    pointer-events: none;
+}
+
+/*
+        .i-theme-blue-mini .k-widget.k-tooltip.k-popup.k-state-border-up {
+            background-color: rgba(249, 249, 249, 0.95);
+            color: #0070c0;
+            border-color: #3088F4;
+            border-radius: .25rem;
+            font-size: .75rem;
+            line-height: 1.0625rem;
+            padding: 6px 12px;
+            z-index: 10000;
+            max-width: 5300px;
+            width: 250px;
+            word-wrap: break-word;
+        }
+
+        .i-theme-blue-mini .k-widget.k-tooltip.k-popup.k-state-border-up .k-callout-n {
+            border-bottom-color: rgba(249, 249, 249, 0.95);
+        }
+*/
+
+.i-theme-blue-mini .k-widget.p-tooltip.k-popup.k-state-border-up .k-callout-n {
+    border-bottom-color: rgba(249, 249, 249, 0.95);
+}
+
+.p-tooltip .k-tooltip-content > li.divider{
+	height: 3px;
+	border-bottom: 1px dashed #E0E0E0;
+}
+
+.p-tooltip li {
+    text-align: left;
+}
+
+.info-title {
+    margin-bottom: 0.6875rem;
+    margin-top: 1.0625rem;
+}
+
+.info-title .user-name {
+    font-size: 1rem;
+    color: #37474F;
+    width: 30px;
+    margin-bottom: 0.6875rem;
+    margin-right: 1.25rem !important;
+    line-height: 1.375rem;
+}
+
+.p-tooltip .info-title .information,
+.p-tooltip .information {
+    font-size: 0.75rem;
+    color: #90A4AE;
+    line-height: 0.75rem;
+    padding-right: 0.25rem;
+    width: 100rem;
+}
+
+.p-tooltip .info-title .information{
+    padding-left: 0rem!important;
+    padding-right: 0rem!important;
+}
+
+.info-title .detail-info,
+.p-tooltip .detail-info {
+    font-size: 0.75rem;
+    padding-left: 0rem;
+    color: #37474F;
+    line-height: 0.75rem;
+    width: 170rem;
+}
+.info-title .detail-info{
+    padding-left: 0rem!important;
+}
+.p-tooltip .detail-info{
+    padding-left: 0.25rem;
+}
+
+.i-last + span,
+.i-first + span {
+    margin-top: 0.625rem;
+}

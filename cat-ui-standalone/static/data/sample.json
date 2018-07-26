@@ -1,0 +1,66 @@
+{
+    "attributes": {
+      "$type": "page",
+      "prefix": "",
+      "title": "",
+      "ename": ""
+    },
+    "config": {
+      "catid": "PAGE",
+      "tag": "CatDiv",
+      "tagHtml": "CatPageTag",
+      "catalog": "layout",
+      "showdata": false,
+      "showtag": false,
+      "pagebuttons": [
+
+        {
+          "attributes": {
+            "$type": "button",
+            "ename": "QUERY",
+            "cname": "查询",
+            "layout": "0",
+            "regionId": "INQU",
+            "desc": "查询"
+          },
+          "config": {
+            "catid": "b1",
+            "hideframe": true
+          },
+          "children":[]
+        },
+        {
+          "attributes": {
+            "$type": "button",
+            "ename": "INSERT",
+            "cname": "新增",
+            "layout": "0",
+            "regionId": "GRID:EF_GRID_RESULT",
+            "desc": "新增"
+          },
+          "config": {
+            "catid": "b2",
+            "hideframe": true
+          },
+          "children":[]
+        },
+        {
+          "attributes": {
+            "$type": "button",
+            "ename": "SUBMIT",
+            "cname": "提交",
+            "layout": "0",
+            "regionId": "GRID:EF_GRID_RESULT",
+            "desc": "新增"
+          },
+          "config": {
+            "catid": "b3",
+            "hideframe": true
+          },
+          "children":[]
+        }
+
+      ]
+    },
+    "children": []
+}

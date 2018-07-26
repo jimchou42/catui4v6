@@ -1,0 +1,50 @@
+.k-listbox {
+  box-sizing: border-box;
+  height: 140px;
+  position: relative;
+  float: left;
+  width: 12em;
+  overflow: scroll;
+  border-width: 0;
+  vertical-align: middle;
+  margin-right: 60px;
+  border: 1px solid #ddd;
+}
+.k-listbox .k-listbox-toolbar {
+  box-sizing: border-box;
+  position: absolute;
+  right: -60px;
+}
+.k-listbox .k-listbox-toolbar .k-button {
+  margin: 0 5px 10px;
+  border: 1px solid #ceced2;
+  background: #cbcbcf;
+  box-shadow: none;
+}
+.k-listbox .k-listbox-toolbar .k-button-icon .k-i-arrow-60-right {
+  background-position: 0 -18px;
+  display: block;
+}
+.k-listbox .k-listbox-toolbar .k-button-icon .k-i-arrow-60-left {
+  background-position: 0 -54px;
+  display: block;
+}
+.k-listbox .k-listbox-toolbar .k-button-icon .k-i-arrow-double-60-right {
+  background-position: 0 -162px;
+  display: block;
+}
+.k-listbox .k-listbox-toolbar .k-button-icon .k-i-arrow-double-60-left {
+  background-position: 0 -198px;
+  display: block;
+}
+.k-listbox .k-listbox-toolbar .k-state-disabled .k-button {
+  background: none;
+}
+.k-listbox .k-list .k-item {
+  padding: 5px;
+  margin: 4px;
+}
+.k-listbox-toolbar-right .k-listbox-toolbar {
+  float: right;
+  margin-left: 5px;
+}

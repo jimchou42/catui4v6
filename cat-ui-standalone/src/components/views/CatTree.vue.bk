@@ -1,0 +1,47 @@
+<template>
+  <CatFrame :attributes="attributes" :config="config">
+    <div :id="attributes.ename" class="tree k-widget k-treeview"
+      style="height: 451px;" data-role="treeview" tabindex="0"
+      :aria-activedescendant="attributes.ename+'_tv_active'">
+      <ul class="k-group k-treeview-lines" role="tree">
+        <li role="treeitem" class="k-item k-first k-last"
+          aria-selected="false " data-expanded="true" aria-expanded="true">
+          <div class="k-top k-bot">
+            <span class="k-icon k-i-collapse"></span>
+            <span class="k-in">系统菜单</span>
+          </div>
+          <ul class="k-group" role="group" style="display: block;">
+            <li role="treeitem" class="k-item"
+              aria-selected="false ">
+              <div class="k-top">
+                <span class="k-icon k-i-expand"></span>
+                <span class="k-in">系统平台</span>
+              </div>
+            </li>
+            <li role="treeitem" class="k-item k-last"
+              aria-selected="false ">
+              <div class="k-mid">
+                <span class="k-icon k-i-expand"></span>
+                <span class="k-in">业务流程管理</span>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </CatFrame>
+</template>
+
+<script>
+export default {
+  name: 'CatTree',
+  props: {
+    attributes: Object,
+    config: Object,
+    children: Array
+  }
+}
+</script>
+
+<style scoped>
+</style>
