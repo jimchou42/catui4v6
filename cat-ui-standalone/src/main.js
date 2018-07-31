@@ -116,86 +116,7 @@ var sampledata = {
       catalog: 'layout',
       showdata: false,
       showtag: false,
-      pagebuttons: [
-        /*
-        {
-          attributes: {
-            $type: 'button',
-            ename: 'QUERY',
-            cname: '查询',
-            layout: '0',
-            regionId: 'INQU',
-            desc: '查询'
-          },
-          config: {
-            catid: 'b1',
-            hideframe: true
-          },
-          children:[]
-        },
-        {
-          attributes: {
-            $type: 'button',
-            ename: 'INSERT',
-            cname: '新增',
-            layout: '0',
-            regionId: 'GRID:EF_GRID_RESULT',
-            desc: '新增'
-          },
-          config: {
-            catid: 'b2',
-            hideframe: true
-          },
-          children:[]
-        },
-        {
-          attributes: {
-            $type: 'button',
-            ename: 'SUBMIT',
-            cname: '提交',
-            layout: '0',
-            regionId: 'GRID:EF_GRID_RESULT',
-            desc: '新增'
-          },
-          config: {
-            catid: 'b3',
-            hideframe: true
-          },
-          children:[]
-        }
-        */
-      ] /*,
-      metadata: {
-        attributes: {
-          $type: 'treeitem',
-          ename: 'ROOT',
-          cname: '元数据'
-        },
-        config: {
-          hideframe: true,
-          expand: false,
-          isleaf: false,
-          checkbox: true,
-          catid: '__metadatatree'
-        },
-        children: []
-      },
-      dbdata: {
-        attributes: {
-          $type: 'treeitem',
-          ename: 'ROOT',
-          cname: '数据库数据'
-        },
-        config: {
-          hideframe: true,
-          expand: false,
-          isleaf: false,
-          checkbox: true,
-          catid: '__dbdatatree'
-        },
-        children: []
-      }
-      */
+      pagebuttons: []
     },
     children: []
 };
@@ -315,7 +236,7 @@ var initVM = function(initData) {
         return false;
       }
       var sanddata = Object.assign({}, {
-        "data": JSON.stringify(savedata),
+        "data": JSON.stringify(savedata, null, 2),
         "pageid": savedata.attributes.ename
       });
       // 提交servlet或者jsp保存json对象
