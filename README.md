@@ -14,7 +14,7 @@
 * 构建cat-ui-standalone
 * ant将cat-ui-standalone复制到catui4v6/src/main/resources/META-INF/resources下
 * 编译catui4v6
-* 打成war包
+* 打war包
 
 ## Run
 本地启动需要jre/jdk 1.8
