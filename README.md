@@ -19,4 +19,7 @@
 ## Run
 本地启动需要jre/jdk 1.8
 
-java -jar catui4v6.1.0.0801.war [-Dport=8080]
+java -jar catui4v6.1.0.0801.war
+
+> 需要指定启动端口，可以在后面增加-Dport参数，如：
+java -jar catui4v6.1.0.0801.war -Dport=8082
