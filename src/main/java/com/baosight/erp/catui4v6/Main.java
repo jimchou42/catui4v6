@@ -36,7 +36,7 @@ public class Main {
 	private static final int DEFAULT_PORT = 8080;
 
 	public static void main(String[] args) throws Exception {
-
+		
 		// 获取端口参数
 		String portStr = "";
 		int aport = DEFAULT_PORT;
@@ -128,19 +128,6 @@ public class Main {
 		server.setHandler(context);
 		return server;
 	}
-	/*
-    private static ServletHolder jspServletHolder() {
-        ServletHolder holderJsp = new ServletHolder("jsp", JettyJspServlet.class);
-        holderJsp.setInitOrder(0);
-        holderJsp.setInitParameter("logVerbosityLevel", "DEBUG");
-        holderJsp.setInitParameter("fork", "false");
-        holderJsp.setInitParameter("xpoweredBy", "false");
-        holderJsp.setInitParameter("compilerTargetVM", "1.8");
-        holderJsp.setInitParameter("compilerSourceVM", "1.8");
-        holderJsp.setInitParameter("keepgenerated", "true");
-        return holderJsp;
-    }
-	*/
 
 	/**
 	 * 检查端口是否被占用
